@@ -1,0 +1,25 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+#container{
+    background-color: black;
+    color: white;
+    height: 500px;
+    width: 500px;
+    text-align: center;
+}
+input{
+    width: 100px;
+    color: black;
+    text-align: center;
+}
+#submission{
+    width: 200px;
+}
+.Tarun{
+    cursor: pointer;
+}
