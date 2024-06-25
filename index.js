@@ -21,6 +21,7 @@ let flag = true ;
             document.querySelector('#display').innerHTML = `correct guess`;
             document.querySelector('#display').innerHTML += `You WON Game Over`;
             div.appendChild(newgamee);
+             userinput.disabled = true;
             flag = false; 
             newgamee.addEventListener('click',newgame);
         }
